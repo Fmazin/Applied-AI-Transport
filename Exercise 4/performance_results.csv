@@ -1,0 +1,19 @@
+;model;vectorizer;accuracy_score;params
+0;lr;count;0.937799043;{'C': 1}
+1;knn;count;0.959330144;{'n_neighbors': 7, 'weights': 'distance'}
+2;rf;count;0.968899522;{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 300}
+3;xgboost;count;0.959330144;{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 200}
+4;svm;count;0.959330144;{'C': 10, 'kernel': 'rbf'}
+5;bayes;count;0.949760766;{'alpha': 1, 'force_alpha': True}
+6;lr;hashing;0.95215311;{'C': 10}
+7;knn;hashing;0.954545455;{'n_neighbors': 9, 'weights': 'uniform'}
+8;rf;hashing;0.971291866;{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 300}
+9;xgboost;hashing;0.973684211;{'learning_rate': 0.2, 'max_depth': 5, 'n_estimators': 200}
+10;svm;hashing;0.971291866;{'C': 10, 'kernel': 'rbf'}
+11;bayes;hashing;0.83492823;{'alpha': 1, 'force_alpha': True}
+12;lr;tfidf;0.956937799;{'C': 0.1}
+13;knn;tfidf;0.93062201;{'n_neighbors': 7, 'weights': 'distance'}
+14;rf;tfidf;0.968899522;{'max_depth': 30, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 300}
+15;xgboost;tfidf;0.964114833;{'learning_rate': 0.1, 'max_depth': 5, 'n_estimators': 200}
+16;svm;tfidf;0.954545455;{'C': 0.1, 'kernel': 'linear'}
+17;bayes;tfidf;0.944976077;{'alpha': 1, 'force_alpha': True}
